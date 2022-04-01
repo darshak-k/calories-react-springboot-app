@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220401190727",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "user_info",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UserInfo",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "foodUser",
+      "otherEntityRelationshipName": "foodUser",
+      "relationshipName": "foodUser",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

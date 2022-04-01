@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20220401190726",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "food",
+  "fields": [
+    {
+      "fieldName": "foodName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "calorieValue",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Food",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
